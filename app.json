@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "CIS5120Test",
+    "slug": "CIS5120Test",
+    "version": "1.0.0",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow the app to use your location.",
+          "isIosBackgroundLocationEnabled": true
+        }
+      ]
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.yourname.geofencingdemo",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "location"
+        ],
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We need your location to track geofences.",
+        "NSLocationWhenInUseUsageDescription": "We need your location to track geofences.",
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "58368103-6c30-4377-b9a7-8e3e710de06f"
+      }
+    }
+  }
+}
