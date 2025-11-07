@@ -18,3 +18,4 @@ you need to see the App running in real time please email bjiang1@seas.upenn.edu
 
 ### Screenshot
 
+![alt-text](https://github.com/HexinJ/CIS5120-Project-Geolocation/blob/main/IMG_4893.PNG)
